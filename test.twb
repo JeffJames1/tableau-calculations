@@ -1,0 +1,13 @@
+// file of test patterns
+asdf //123
+[asdf].[asdfasdf]
+sum([object]) = "23"
+{ fixed [my object]: sum([another object])}
+case [object]
+when '123' then Sum
+
+asdf TruE fAlsE iftruesum
+[parameters].[myobject]
+
+#2018-08-08#
+{fixed : }

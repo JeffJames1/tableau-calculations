@@ -1,0 +1,21 @@
+{
+  "name": "tableau-calcs",
+  "main": "./lib/tableau-calcs",
+  "version": "0.1.0",
+  "description": "Syntax coloring of Tableau Calculations",
+  "keywords": [
+    "syntax",
+    "highlighting",
+    "grammar"
+  ],
+  "activationCommands": {
+    "atom-workspace": "tableau-calcs:toggle"
+  },
+  "repository": "https://github.com/JeffJames1/tableau-calculations.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
