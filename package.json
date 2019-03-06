@@ -1,7 +1,7 @@
 {
   "name": "tableau-calculations",
   "main": "./lib/tableau-calculations",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Grammar for Tableau calculations",
   "keywords": [
     "syntax",
