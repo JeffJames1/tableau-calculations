@@ -1,8 +1,8 @@
 'use babel';
 
-import TableauCalcsView from '../lib/tableau-calcs-view';
+import TableauCalcsView from '../lib/tableau-calculations-view';
 
-describe('TableauCalcsView', () => {
+describe('TableauCalculationsView', () => {
   it('has one valid test', () => {
     expect('life').toBe('easy');
   });

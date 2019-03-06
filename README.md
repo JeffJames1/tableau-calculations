@@ -1,4 +1,4 @@
-# tableau-calcs package
+# tableau-calculations package
 
 A small package to provide syntax coloring for Tableau Calculations.
 
