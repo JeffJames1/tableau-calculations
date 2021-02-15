@@ -1,13 +1,14 @@
 // file of test patterns
 asdf //123
 [asdf].[asdfasdf]
-sum([object]) = "23"
+sum([object]) = "'23''"
 { fixed [my object]: sum([another object])}
 case [object]
-when '123' then Sum
-
-asdf TruE fAlsE iftruesum
+when '123' then Sum()
+asdftrueasdf
+asdf sum TruE sum() fAlsE iftruesum
 [parameters].[myobject]
-
+true
 #2018-08-08#
 {fixed : }
+(sum([Total Val]) - sum([Result Val]))/sum([Total Val])

@@ -28,8 +28,9 @@ patterns: [ # An array of individual pattern declarations.
   {
     comment: 'List of functions'
     name: 'entity.name.function'
-    end: '('
-    match: '(^|\\W)([Aa][Bb][Ss]|[Aa][Cc][Oo][Ss]|[Aa][Ss][Cc][Ii][Ii]|[Aa][Ss][Ii][Nn]|[Aa][Tt][Aa][Nn]|[Aa][Tt][Aa][Nn]2|[Aa][Tt][Tt][Rr]|[Aa][Vv][Gg]|[Cc][Aa][Ss][Ee]|[Cc][Ee][Ii][Ll][Ii][Nn][Gg]|[Cc][Hh][Aa][Rr]|[Cc][Oo][Nn][Tt][Aa][Ii][Nn][Ss]|[Cc][Oo][Rr][Rr]|[Cc][Oo][Ss]|[Cc][Oo][Tt]|[Cc][Oo][Uu][Nn][Tt]|[Cc][Oo][Uu][Nn][Tt][Dd]|[Cc][Oo][Vv][Aa][Rr]|[Cc][Oo][Vv][Aa][Rr][Pp]|[Dd][Aa][Tt][Ee]|[Dd][Aa][Tt][Ee][Aa][Dd][Dd]|[Dd][Aa][Tt][Ee][Dd][Ii][Ff][Ff]|[Dd][Aa][Tt][Ee][Nn][Aa][Mm][Ee]|[Dd][Aa][Tt][Ee][Pp][Aa][Rr][Tt]|[Dd][Aa][Tt][Ee][Tt][Ii][Mm][Ee]|[Dd][Aa][Tt][Ee][Tt][Rr][Uu][Nn][Cc]|[Dd][Aa][Yy]|[Dd][Ee][Gg][Rr][Ee][Ee][Ss]|[Dd][Ii][Vv]|[Ee][Nn][Dd][Ss][Ww][Ii][Tt][Hh]|[Ee][Xx][Pp]|[Ff][Ii][Nn][Dd]|[Ff][Ii][Rr][Ss][Tt]|[Ff][Ll][Oo][Aa][Tt]|[Ff][Ll][Oo][Oo][Rr]|[Ff][Uu][Ll][Ll][Nn][Aa][Mm][Ee]|[Hh][Ee][Xx][Bb][Ii][Nn][Xx]|[Hh][Ee][Xx][Bb][Ii][Nn][Yy]|[Ii][Ff][Nn][Uu][Ll][Ll]|[Ii][Nn][Dd][Ee][Xx]|[Ii][Nn][Tt]|[Ii][Ss][Dd][Aa][Tt][Ee]|[Ii][Ss][Ff][Uu][Ll][Ll][Nn][Aa][Mm][Ee]|[Ii][Ss][Mm][Ee][Mm][Bb][Ee][Rr][Oo][Ff]|[Ii][Ss][Nn][Uu][Ll][Ll]|[Ii][Ss][Uu][Ss][Ee][Rr][Nn][Aa][Mm][Ee]|[Ll][Aa][Ss][Tt]|[Ll][Ee][Ff][Tt]|[Ll][Ee][Nn]|[Ll][Nn]|[Ll][Oo][Gg]|[Ll][Oo][Oo][Kk][Uu][Pp]|[Ll][Oo][Ww][Ee][Rr]|[Ll][Tt][Rr][Ii][Mm]|[Mm][Aa][Xx]|[Mm][Ii][Dd]|[Mm][Ii][Nn]|[Mm][Oo][Nn][Tt][Hh]|[Nn][Oo][Ww]|[Pp][Ii]|[Pp][Oo][Ww][Ee][Rr]|[Pp][Rr][Ee][Vv][Ii][Oo][Uu][Ss]_[Vv][Aa][Ll][Uu][Ee]|[Rr][Aa][Dd][Ii][Aa][Nn][Ss]|[Rr][Aa][Nn][Kk]|[Rr][Aa][Nn][Kk]_[Dd][Ee][Nn][Ss][Ee]|[Rr][Aa][Nn][Kk]_[Mm][Oo][Dd][Ii][Ff][Ii][Ee][Dd]|[Rr][Aa][Nn][Kk]_[Pp][Ee][Rr][Cc][Ee][Nn][Tt][Ii][Ll][Ee]|[Rr][Aa][Nn][Kk]_[Uu][Nn][Ii][Qq][Uu][Ee]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Ee][Xx][Tt][Rr][Aa][Cc][Tt]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Ee][Xx][Tt][Rr][Aa][Cc][Tt]_[Nn][Tt][Hh]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Mm][Aa][Tt][Cc][Hh]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Rr][Ee][Pp][Ll][Aa][Cc][Ee]|[Rr][Ee][Pp][Ll][Aa][Cc][Ee]|[Rr][Ii][Gg][Hh][Tt]|[Rr][Oo][Uu][Nn][Dd]|[Rr][Tt][Rr][Ii][Mm]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Aa][Vv][Gg]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Cc][Oo][Uu][Nn][Tt]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Mm][Aa][Xx]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Mm][Ii][Nn]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Ss][Uu][Mm]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Bb][Oo][Oo][Ll]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Ii][Nn][Tt]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Rr][Ee][Aa][Ll]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Ss][Tt][Rr]|[Ss][Ii][Gg][Nn]|[Ss][Ii][Nn]|[Ss][Ii][Zz][Ee]|[Ss][Pp][Aa][Cc][Ee]|[Ss][Pp][Ii][Tt]|[Ss][Qq][Rr][Tt]|[Ss][Qq][Uu][Aa][Rr][Ee]|[Ss][Tt][Aa][Rr][Tt][Ss][Ww][Ii][Tt][Hh]|[Ss][Tt][Dd][Ee][Vv]|[Ss][Tt][Dd][Ee][Vv][Pp]|[Ss][Tt][Rr]|[Ss][Uu][Mm]|[Tt][Aa][Nn]|[Tt][Oo][Dd][Aa][Yy]|[Tt][Rr][Ii][Mm]|[Uu][Pp][Pp][Ee][Rr]|[Uu][Ss][Ee][Rr][Dd][Oo][Mm][Aa][Ii][Nn]|[Uu][Ss][Ee][Rr][Nn][Aa][Mm][Ee]|[Vv][Aa][Rr]|[Vv][Aa][Rr][Pp]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Aa][Vv][Gg]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Rr][Rr]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Uu][Nn][Tt]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Vv][Aa][Rr]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Vv][Aa][Rr][Pp]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Mm][Aa][Xx]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Mm][Ee][Dd][Ii][Aa][Nn]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Mm][Ii][Nn]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Pp][Ee][Rr][Cc][Ee][Nn][Tt][Ii][Ll][Ee]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Ss][Tt][Dd][Ee][Vv]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Ss][Tt][Dd][Ee][Vv][Pp]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Vv][Aa][Rr]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Vv][Aa][Rr][Pp]|[Yy][Ee][Aa][Rr]|[Zz][Nn])(?=\\W)'
+    begin: '(^|(?=(\\W)))'
+    end: '\('
+    match: '([Aa][Bb][Ss]|[Aa][Cc][Oo][Ss]|[Aa][Ss][Cc][Ii][Ii]|[Aa][Ss][Ii][Nn]|[Aa][Tt][Aa][Nn]|[Aa][Tt][Aa][Nn]2|[Aa][Tt][Tt][Rr]|[Aa][Vv][Gg]|[Cc][Aa][Ss][Ee]|[Cc][Ee][Ii][Ll][Ii][Nn][Gg]|[Cc][Hh][Aa][Rr]|[Cc][Oo][Nn][Tt][Aa][Ii][Nn][Ss]|[Cc][Oo][Rr][Rr]|[Cc][Oo][Ss]|[Cc][Oo][Tt]|[Cc][Oo][Uu][Nn][Tt]|[Cc][Oo][Uu][Nn][Tt][Dd]|[Cc][Oo][Vv][Aa][Rr]|[Cc][Oo][Vv][Aa][Rr][Pp]|[Dd][Aa][Tt][Ee]|[Dd][Aa][Tt][Ee][Aa][Dd][Dd]|[Dd][Aa][Tt][Ee][Dd][Ii][Ff][Ff]|[Dd][Aa][Tt][Ee][Nn][Aa][Mm][Ee]|[Dd][Aa][Tt][Ee][Pp][Aa][Rr][Tt]|[Dd][Aa][Tt][Ee][Tt][Ii][Mm][Ee]|[Dd][Aa][Tt][Ee][Tt][Rr][Uu][Nn][Cc]|[Dd][Aa][Yy]|[Dd][Ee][Gg][Rr][Ee][Ee][Ss]|[Dd][Ii][Vv]|[Ee][Nn][Dd][Ss][Ww][Ii][Tt][Hh]|[Ee][Xx][Pp]|[Ff][Ii][Nn][Dd]|[Ff][Ii][Rr][Ss][Tt]|[Ff][Ll][Oo][Aa][Tt]|[Ff][Ll][Oo][Oo][Rr]|[Ff][Uu][Ll][Ll][Nn][Aa][Mm][Ee]|[Hh][Ee][Xx][Bb][Ii][Nn][Xx]|[Hh][Ee][Xx][Bb][Ii][Nn][Yy]|[Ii][Ff][Nn][Uu][Ll][Ll]|[Ii][Nn][Dd][Ee][Xx]|[Ii][Nn][Tt]|[Ii][Ss][Dd][Aa][Tt][Ee]|[Ii][Ss][Ff][Uu][Ll][Ll][Nn][Aa][Mm][Ee]|[Ii][Ss][Mm][Ee][Mm][Bb][Ee][Rr][Oo][Ff]|[Ii][Ss][Nn][Uu][Ll][Ll]|[Ii][Ss][Uu][Ss][Ee][Rr][Nn][Aa][Mm][Ee]|[Ll][Aa][Ss][Tt]|[Ll][Ee][Ff][Tt]|[Ll][Ee][Nn]|[Ll][Nn]|[Ll][Oo][Gg]|[Ll][Oo][Oo][Kk][Uu][Pp]|[Ll][Oo][Ww][Ee][Rr]|[Ll][Tt][Rr][Ii][Mm]|[Mm][Aa][Xx]|[Mm][Ii][Dd]|[Mm][Ii][Nn]|[Mm][Oo][Nn][Tt][Hh]|[Nn][Oo][Ww]|[Pp][Ii]|[Pp][Oo][Ww][Ee][Rr]|[Pp][Rr][Ee][Vv][Ii][Oo][Uu][Ss]_[Vv][Aa][Ll][Uu][Ee]|[Rr][Aa][Dd][Ii][Aa][Nn][Ss]|[Rr][Aa][Nn][Kk]|[Rr][Aa][Nn][Kk]_[Dd][Ee][Nn][Ss][Ee]|[Rr][Aa][Nn][Kk]_[Mm][Oo][Dd][Ii][Ff][Ii][Ee][Dd]|[Rr][Aa][Nn][Kk]_[Pp][Ee][Rr][Cc][Ee][Nn][Tt][Ii][Ll][Ee]|[Rr][Aa][Nn][Kk]_[Uu][Nn][Ii][Qq][Uu][Ee]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Ee][Xx][Tt][Rr][Aa][Cc][Tt]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Ee][Xx][Tt][Rr][Aa][Cc][Tt]_[Nn][Tt][Hh]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Mm][Aa][Tt][Cc][Hh]|[Rr][Ee][Gg][Ee][Xx][Pp]_[Rr][Ee][Pp][Ll][Aa][Cc][Ee]|[Rr][Ee][Pp][Ll][Aa][Cc][Ee]|[Rr][Ii][Gg][Hh][Tt]|[Rr][Oo][Uu][Nn][Dd]|[Rr][Tt][Rr][Ii][Mm]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Aa][Vv][Gg]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Cc][Oo][Uu][Nn][Tt]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Mm][Aa][Xx]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Mm][Ii][Nn]|[Rr][Uu][Nn][Nn][Ii][Nn][Gg]_[Ss][Uu][Mm]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Bb][Oo][Oo][Ll]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Ii][Nn][Tt]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Rr][Ee][Aa][Ll]|[Ss][Cc][Rr][Ii][Pp][Tt]_[Ss][Tt][Rr]|[Ss][Ii][Gg][Nn]|[Ss][Ii][Nn]|[Ss][Ii][Zz][Ee]|[Ss][Pp][Aa][Cc][Ee]|[Ss][Pp][Ii][Tt]|[Ss][Qq][Rr][Tt]|[Ss][Qq][Uu][Aa][Rr][Ee]|[Ss][Tt][Aa][Rr][Tt][Ss][Ww][Ii][Tt][Hh]|[Ss][Tt][Dd][Ee][Vv]|[Ss][Tt][Dd][Ee][Vv][Pp]|[Ss][Tt][Rr]|[Ss][Uu][Mm]|[Tt][Aa][Nn]|[Tt][Oo][Dd][Aa][Yy]|[Tt][Rr][Ii][Mm]|[Uu][Pp][Pp][Ee][Rr]|[Uu][Ss][Ee][Rr][Dd][Oo][Mm][Aa][Ii][Nn]|[Uu][Ss][Ee][Rr][Nn][Aa][Mm][Ee]|[Vv][Aa][Rr]|[Vv][Aa][Rr][Pp]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Aa][Vv][Gg]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Rr][Rr]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Uu][Nn][Tt]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Vv][Aa][Rr]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Cc][Oo][Vv][Aa][Rr][Pp]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Mm][Aa][Xx]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Mm][Ee][Dd][Ii][Aa][Nn]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Mm][Ii][Nn]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Pp][Ee][Rr][Cc][Ee][Nn][Tt][Ii][Ll][Ee]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Ss][Tt][Dd][Ee][Vv]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Ss][Tt][Dd][Ee][Vv][Pp]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Vv][Aa][Rr]|[Ww][Ii][Nn][Dd][Oo][Ww]_[Vv][Aa][Rr][Pp]|[Yy][Ee][Aa][Rr]|[Zz][Nn])(?= *\\()'
   }
   {
     comment: 'List of operators'
@@ -39,15 +40,22 @@ patterns: [ # An array of individual pattern declarations.
   {
     comment: 'List of LOD types'
     name: 'keyword.other'
-    begin: '{'
-    match: ' *([Ff][Ii][Xx][Ee][Dd]|[Ii][Nn][Cc][Ll][Uu][Dd][Ee]|[Ee][Xx][Cc][Ll][Uu][Dd][Ee])( +|:)'
+    begin: '{ *'
+    match: '([Ff][Ii][Xx][Ee][Dd]|[Ii][Nn][Cc][Ll][Uu][Dd][Ee]|[Ee][Xx][Cc][Ll][Uu][Dd][Ee])(?=( +|:))'
   }
   {
     comment: 'List of flow control keywords'
     name: 'keyword.control'
     begin: ' '
-    end: ' '
-    match: '(^| )([Ii][Ff]|[Tt][Hh][Ee][Nn]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Nn][Oo][Tt]|[Ee][Ll][Ss][Ee][Ii][Ff]|[Oo][Rr]|[Aa][Nn][Dd]|[Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee]|[Ww][Hh][Ee][Nn])\\W'
+    #end: ' '
+    match: '(^| )([Ii][Ff]|[Tt][Hh][Ee][Nn]|[Ee][Ll][Ss][Ee]|[Ee][Nn][Dd]|[Nn][Oo][Tt]|[Ee][Ll][Ss][Ee][Ii][Ff]|[Oo][Rr]|[Aa][Nn][Dd]|[Ww][Hh][Ee][Nn])(?= +)'
+  }
+  {
+    comment: 'Boolean constants'
+    name: 'constant.language'
+    begin: '(^|(?=(\\W)))'
+    end: '(?=( +|\\W))'
+    match: '[Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee]'
   }
   {
     comment: 'Single quoted literal strings'
@@ -66,12 +74,5 @@ patterns: [ # An array of individual pattern declarations.
     name: 'string.quoted'
     begin: '#'
     end: '#'
-  }
-  {
-    comment: 'Boolean True/False'
-    name: 'constant.language'
-    begin: ' '
-    end: ' '
-    match: '[Tt][Rr][Uu][Ee]|[Ff][Aa][Ll][Ss][Ee]'
   }
 ]
